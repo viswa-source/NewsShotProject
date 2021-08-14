@@ -18,7 +18,7 @@ const db = admin.firestore();
 
 const docRef = db.collection('TotalData').doc(new Date().toISOString());
 
-
+console.log("GITHUB WORKED")
 (async () => {
     let browser = await puppeteer.launch();
     let page = await browser.newPage();
